@@ -6,7 +6,13 @@ title: project
 
 ## Project
 
-#### Definition Models
+#### RNNLM and n-gram statistics
+This project explores how explicitly stated n-gram distribution can be used as a set of soft constraints to direct the language model behavior during the generation without sacrificing its accuracy in assigning probability to sequences of words. We apply the technique to reduce word-level repetition (a common problematic behavior). It also improves model generalizability by incorporating statistical constraints are n-gram statistics taken from a large corpus.
+
+[ Paper: [AAAI'18](https://www.cs.northwestern.edu/~ddowney/publications/noraset_aaai_2018.pdf) \| Links: [code](https://github.com/northanapon/seqmodel/tree/aaai18)]
+
+
+#### Definition Modeling
 
 This project aims to build generative models of definitions in dictionaries and encyclopedias. The model learns from pairs of word embedding and definition. The model is then tested on how well it generates definitions for a given set of word embeddings. We are exploring deep learning algorithms and other language models.
 
