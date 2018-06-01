@@ -1,1 +1,39 @@
-theme: jekyll-theme-minimal
+lang: en
+title: Thanapon Noraset
+name: Thanapon Noraset
+description: Nor's personal webpage
+email: nor.thanapon@gmail.com
+theme: minima
+favicon: "assets/img/favicon.ico"
+
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#ffffff"
+apple-status-bar-style: "white"
+
+#################
+# Build settings#
+#################
+
+me-img: assets/img/nor_thanapon.png
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Project: 'project'
+  Publication: 'publication'
+  # Blog: 'latest-post'
+  # Timeline: 'timeline'
+  Contact: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude:
+  - LICENSE
+  - README.md
+  - CONTRIBUTING
+  - Gemfile
+  - Gemfile.lock
+
