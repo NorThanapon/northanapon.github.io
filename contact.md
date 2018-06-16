@@ -5,4 +5,4 @@ title: Contact
 ---
 ## Contact
 
-The easiest way to reach Nor is to send him an email:
+The best way to reach Nor is to send him an email:
